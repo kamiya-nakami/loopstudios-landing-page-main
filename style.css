@@ -28,8 +28,12 @@ button {
 }
 /* Settings All */ 
 header {
-    background: url(/images/desktop/image-hero.jpg) no-repeat ;
-    height: 25rem;
+    background: linear-gradient(
+        to bottom,
+        rgb(33, 33, 33, 0.5),
+        rgba(9, 9, 9, 0.71)),url(/images/desktop/image-hero.jpg) no-repeat ;
+    background: rgb(0, 0, 0 ,  0,2);
+    height: auto;
     padding: 2rem 3rem;
 }
 
@@ -78,7 +82,7 @@ header {
     display: flex;
     padding: 3rem;
     width: 30rem;
-    margin-top: 5rem;
+    margin: 5rem 2rem;
 }
 .Text-herder {
     color: var(--White);

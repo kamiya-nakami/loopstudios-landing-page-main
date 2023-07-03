@@ -411,6 +411,10 @@ header {
         grid-template-rows: repeat(3 , .1fr);
     }
 
+    .content {
+        padding: 0 2.5rem;
+    }
+
     .button-seeAll {
         grid-row: 3;
     }
@@ -423,6 +427,10 @@ header {
         margin: 1.5rem 0;
     }
     
+    .container-content-VR {
+        margin: 2rem 0;
+        height: 42rem;
+    }
     /* mian & conatant */
     .footer-menu 
     ,.footer-menu .menu-nav{
@@ -443,3 +451,35 @@ header {
 } 
 
 /* moblie */
+@media only screen and (max-width: 560px) {
+
+    header {
+        height: 32rem;
+    }
+
+
+
+    .Text-herder {
+        font-size: .8rem;
+    }
+
+    .hamburger {
+        width: 2rem;
+    }
+
+    .logo  img {
+        width: 10rem;
+    }
+
+    .hamburger-header {
+        width: 2rem;
+    }
+    /* haeder & hamburger */
+    .content-VR p {
+        font-size: 1.1rem;
+    }
+    .content {
+        padding: 0 2rem;
+    }
+    /* content */
+}

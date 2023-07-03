@@ -258,7 +258,7 @@ header {
 }
 
 /* footer */
-@media screen and (max-width: 990px) /* mobile */  {
+@media screen and (max-width: 1000px) /* mobile */  {
     .content-VR {
         width: 25rem;
         padding: 1rem 1.5rem;
@@ -287,7 +287,7 @@ header {
 
 
 
-@media only screen and (max-width: 800px) /* mobile */ {
+@media only screen and (max-width: 850px) /* mobile */ {
     
     .nav-overlay {
         position: fixed;

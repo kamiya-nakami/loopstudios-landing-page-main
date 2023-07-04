@@ -457,7 +457,9 @@ header {
         height: 32rem;
     }
 
-
+    .info {
+        margin-top: 7rem;
+    }
 
     .Text-herder {
         font-size: .8rem;
@@ -481,5 +483,6 @@ header {
     .content {
         padding: 0 2rem;
     }
+
     /* content */
 }
